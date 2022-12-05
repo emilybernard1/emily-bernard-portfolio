@@ -9,11 +9,11 @@ const PortfolioHeader = () => {
 	return (
 		<div >
 			<Container fluid textAlign='center' className='header'>
-				<Header as='h1' content='Emily Bernard' style={{ fontSize: '4em', marginTop: '1em' }}>
+				<Header as='h1' content='Emily Bernard' style={{ fontSize: '4em', color: 'white', marginTop: '1em' }}>
 
 					Emily Bernard
 					<Header.Subheader>
-						<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]} style={{ fontSize: '1.7em', margin: '1em' }}></ReactTypingEffect>
+						<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]} style={{ fontSize: '1.7em', color: 'white', margin: '1em' }}></ReactTypingEffect>
 					</Header.Subheader>
 					<Header.Subheader>
 						<IconGroup size='big' style={{ marginBottom: '.5em', marginTop: '.5em' }}>
