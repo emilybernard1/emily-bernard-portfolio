@@ -7,19 +7,14 @@ import AboutMe from './components/AboutMe'
 import Technology from './components/Technology'
 import Projects from './components/Projects'
 
-
 function App() {
   return (
-<div>    
-  
-  <PortfolioHeader/>
-  <AboutMe/>
-  <Projects/>
-  <Technology/>
-  
-  
-  
-</div>
+    <div>
+      <PortfolioHeader />
+      <AboutMe />
+      <Projects />
+      <Technology />
+    </div>
   );
 }
 

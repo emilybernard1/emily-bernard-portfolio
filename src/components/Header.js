@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Icon, IconGroup, Popup, } from 'semantic-ui-react'
+import { Container, Header, Icon, IconGroup, Popup } from 'semantic-ui-react'
 import ReactTypingEffect from 'react-typing-effect'
 
 
@@ -30,7 +30,7 @@ const PortfolioHeader = () => {
 								<Icon className='devicon-linkedin-plain' color='violet' />
 							</a>
 							<a
-								href={`${process.env.PUBLIC_URL}/Emily Bernard Technical Resume.pdf`}
+								href={`${process.env.PUBLIC_URL}/EmilyBernardTechnicalResume.pdf`}
 								target='_blank'
 								aria-label='Resume'>
 								<Icon name='file alternate' color='teal' />

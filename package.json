@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "cloudinary": "^1.32.0",
+    "devicon": "^2.15.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
@@ -42,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -1,5 +1,6 @@
-import React from "react";
-import { Container } from 'react-bootstrap'
+import React from 'react';
+import { Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
+import Technology from './Technology';
 
 const AboutMe = (props) => {
 
@@ -22,7 +23,7 @@ const AboutMe = (props) => {
                                 </p>
                             </Grid.Column>
                             <Grid.Column floated='right' width={6}>
-                                <Image bordered rounded size='large' src={`${process.env.PUBLIC_URL}/images/profilepic.jpeg`} />
+                                <Image bordered rounded size='large' src={`${process.env.PUBLIC_URL}/images/profilepic.png`} />
                             </Grid.Column>
                         </Grid.Row>
 
