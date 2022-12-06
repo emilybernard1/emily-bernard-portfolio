@@ -3,13 +3,14 @@ import { Container, Header, Icon, IconGroup, Popup } from 'semantic-ui-react'
 import ReactTypingEffect from 'react-typing-effect'
 
 
+
 const PortfolioHeader = () => {
 
 
 	return (
 		<div >
 			<Container fluid textAlign='center' className='header'>
-				<Header as='h1' content='Emily Bernard' style={{ fontSize: '4em', color: 'white', marginTop: '1em' }}>
+				<Header as='h1' content='Emily Bernard' style={{ fontSize: '4em', color: 'aqua', marginTop: '1em' }}>
 
 					Emily Bernard
 					<Header.Subheader>

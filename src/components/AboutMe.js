@@ -2,6 +2,8 @@ import React from 'react';
 import { Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
 import Technology from './Technology';
 
+
+
 const AboutMe = (props) => {
 
     return (
@@ -11,7 +13,7 @@ const AboutMe = (props) => {
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
-                                <Header as='h1' style={{ fontSize: '2em' }}>
+                                <Header as='h1' style={{ fontSize: '2em', color: 'violet' }}>
                                     About Me
                                 </Header>
                                 <p style={{ fontSize: '1.33em' }}>
@@ -23,7 +25,7 @@ const AboutMe = (props) => {
                                 </p>
                             </Grid.Column>
                             <Grid.Column floated='right' width={6}>
-                                <Image bordered rounded size='large' src={`${process.env.PUBLIC_URL}/images/profilepic.png`} />
+                                <Image bordered rounded size='medium' src={`${process.env.PUBLIC_URL}/images/profilepic.png`} />
                             </Grid.Column>
                         </Grid.Row>
 
