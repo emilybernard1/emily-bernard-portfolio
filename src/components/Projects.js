@@ -12,7 +12,8 @@ const Projects = () => {
 			meta: 'MongoDB, Express, React.js, Node.js, and Bootstrap-React, Sass, and an optional alternative back end with Django and Python',
 			image: "SantasHelper.png",
 			href: 'https://emilybernard1.github.io/santas-helper/',
-			signIn: 'Username: eb@eb.eb Password: eb'
+			signIn: 'Username: eb@eb.eb Password: eb',
+			gitHub: 'https://github.com/emilybernard1/santas-helper'
 		},
 		{
 			header: 'PetMatch App',
@@ -20,7 +21,8 @@ const Projects = () => {
 			meta: 'MongoDB, Express, React.js, Node.js, and Bootstrap-React, Sass',
 			image: "petMatch.png",
 			href: 'https://petplaydate.netlify.app/',
-			signIn: 'Username: sb@sb.com Password: sb'
+			signIn: 'Username: sb@sb.com Password: sb',
+			gitHub: 'https://github.com/emilybernard1/petMatch'
 		},
 		{
 			header: "Books and Crafts Tracker",
@@ -29,13 +31,16 @@ const Projects = () => {
 			image: "Books&Crafts.png",
 			href: "https://booksandcrafts.fly.dev/",
 			signIn: 'Username: eb@eb.eb Password: eb',
+			gitHub: 'https://github.com/emilybernard1/BookAndCraftTrackerApp'
 		},
 		{
 			header: "French Memory Game",
 			description: "Matching Game where users can test their memory skills to match the monuments of Paris.",
 			meta: "JavaScript, HTML 5, and CSS 3",
 			image: 'FrenchMemoryGame.png',
-			href: 'https://emilybernard1.github.io/EmilysMemoryGame/'
+			href: 'https://emilybernard1.github.io/EmilysMemoryGame/',
+			signIn: 'No username or password needed',
+			gitHub: 'https://github.com/emilybernard1/EmilysMemoryGame'
 		}
 	]
 
@@ -47,8 +52,11 @@ const Projects = () => {
 			<Card.Content>
 				<Card.Header size='huge'>{project.header}</Card.Header>
 				<Card.Meta>{project.meta}</Card.Meta>
-				<Card.Description>{project.description}</Card.Description><br></br>
+				<Card.Description>{project.description}</Card.Description>
+				<br></br>
 				<Card.Meta>{project.signIn}</Card.Meta>
+				<br></br>
+				<Card.Meta>{project.gitHub}</Card.Meta>
 			</Card.Content>
 			<Card.Content extra className='ui one button'>
 				<a
@@ -65,7 +73,7 @@ const Projects = () => {
 	))
 	return (
 		<div>
-			<Segment fluid style={{ padding: '3em', marginBottom: '2em' }} verticalAlign='justify' color='purple'>
+			<Segment fluid style={{ padding: '3em', marginBottom: '2em', backgroundColor: 'black' }} verticalAlign='justify' color='purple'>
 				<Header size='huge' textAlign='center' color='purple'>Projects</Header>
 				<Card.Group centered stackable itemsPerRow={2} >
 					{projectCards}
