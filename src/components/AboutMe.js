@@ -18,7 +18,7 @@ const AboutMe = (props) => {
                                 </Header>
                                 <p style={{ fontSize: '1.33em' }}>
 
-                                    I am a tenacious, resilient, collaborative, and creative Software Engineer. My attention to detail, teaching skills, and my ability to motivate others come from my past experiences in French language education and vocal instruction and carry into collaborating and building great products. If you have a coding, teaching, translating, or singing need: I'm your gal!
+                                    I am a tenacious, resilient, collaborative, and creative Software Engineer. With over 16 years of experience as a French educator, I have honed my mentoring, collaboration, and ability to motivate others. I'm excited to apply these advanced skills to building great products with clean code. If you have a coding, teaching, translating, or singing need: I'm your gal!
                                     <br></br>
                                     <br></br>
                                     When I'm not coding, speaking French, or singing, I love spending time with my children and our 2 dogs and 2 cats! For me, having a good work/life balance is vital for recharging my batteries and staying as sharp as possible in both arenas; work and home.

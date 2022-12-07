@@ -31,7 +31,7 @@ const Technology = () => {
 
 					<Icon name='react' size='huge' />
 
-					<Icon className='devicon-sass-original' size='huge' />
+					{/* <Icon className='devicon-sass-original' size='huge' /> */}
 
 					<Icon className='devicon-bootstrap-plain' size='huge' />
 				</Container>
