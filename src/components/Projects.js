@@ -46,7 +46,6 @@ const Projects = () => {
 
 	const projectCards = projects.map(project => (
 		<Card key={project.header}>
-
 			<Image src={`${process.env.PUBLIC_URL}/images/${project.image}`} wrapped ui={false} />
 
 			<Card.Content>
@@ -62,7 +61,7 @@ const Projects = () => {
 				<a
 					href={project.href}
 					target='_blank'
-					rel="noopener"
+					rel="noreferrer"
 					aria-label={project.header}
 
 				><Button basic color='purple'>Check Out the Live Site</Button></a>

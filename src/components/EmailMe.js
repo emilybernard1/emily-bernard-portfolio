@@ -1,13 +1,9 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
-// import "../index.css"
 import { Segment, Header } from 'semantic-ui-react'
-import { useNavigate } from 'react-router-dom'
 import { useState } from "react";
 
 const EmailMe = (props) => {
-
-    // const navigate = useNavigate()
 
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
