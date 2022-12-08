@@ -38,7 +38,7 @@ const Projects = () => {
 			description: "Matching Game where users can test their memory skills to match the monuments of Paris.",
 			meta: "JavaScript, HTML 5, and CSS 3",
 			image: 'FrenchMemoryGame.png',
-			href: 'https://emilybernard1.github.io/EmilysMemoryGame/',
+			href: 'https://frenchmemorygame.netlify.app/',
 			signIn: 'No username or password needed',
 			gitHub: 'https://github.com/emilybernard1/EmilysMemoryGame'
 		}

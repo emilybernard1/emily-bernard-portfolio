@@ -3,7 +3,6 @@ import { Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
 import Technology from './Technology';
 
 
-
 const AboutMe = (props) => {
 
     return (
