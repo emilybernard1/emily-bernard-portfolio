@@ -14,7 +14,7 @@ const PortfolioHeader = () => {
 
 					Emily Bernard
 					<Header.Subheader>
-						<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]} style={{ fontSize: '1.7em', color: 'white', margin: '1em' }}></ReactTypingEffect>
+						<ReactTypingEffect text={["Full Stack Developer"]} style={{ fontSize: '1.7em', color: 'white', margin: '1em' }}></ReactTypingEffect>
 					</Header.Subheader>
 					<Header.Subheader>
 						<IconGroup size='big' style={{ marginBottom: '.5em', marginTop: '.5em' }}>
