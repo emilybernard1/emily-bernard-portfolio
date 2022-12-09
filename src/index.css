@@ -17,3 +17,13 @@ code {
 a {
   color: inherit;
 }
+
+.contactme {
+  align-items: center;
+  justify-content: center;
+}
+
+#top2 {
+  justify-content: center;
+  align-items: center;
+}
