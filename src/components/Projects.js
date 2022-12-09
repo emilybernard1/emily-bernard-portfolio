@@ -1,4 +1,4 @@
-import _ from 'lodash'
+// import _ from 'lodash'
 import React from 'react'
 import { Image, Segment, Header, Card, Button } from 'semantic-ui-react'
 
@@ -61,7 +61,7 @@ const Projects = () => {
 				<a
 					href={project.href}
 					target='_blank'
-					rel="noopener"
+					rel="noopener noreferrer"
 					aria-label={project.header}
 
 				><Button basic color='purple'>Check Out the Live Site</Button></a>

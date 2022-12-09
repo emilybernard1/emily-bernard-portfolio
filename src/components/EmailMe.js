@@ -1,13 +1,13 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
 import { Segment, Header, Card } from 'semantic-ui-react'
-import { useState } from "react";
+// import { useState } from "react";
 
 const EmailMe = (props) => {
 
-    const [email, setEmail] = useState('');
-    const [name, setName] = useState('');
-    const [message, setMessage] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [name, setName] = useState('');
+    // const [message, setMessage] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();

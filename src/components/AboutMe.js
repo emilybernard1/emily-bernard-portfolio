@@ -1,7 +1,5 @@
 import React from 'react';
-import { Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
-import Technology from './Technology';
-
+import { Grid, Image, Segment, Header } from 'semantic-ui-react';
 
 const AboutMe = (props) => {
 
