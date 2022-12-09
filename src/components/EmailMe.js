@@ -51,7 +51,7 @@ const EmailMe = (props) => {
                     </textarea>
                     <br></br>
                     <br></br>
-                    <input id='contact-submit' type="submit" value="Submit"></input>
+                    <input id='contact-submit' type="submit" value="Submit" margin='3em'></input>
                     <br></br>
                     <br></br>
                 </form>
