@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
-import { Segment, Header, Card } from 'semantic-ui-react'
+import { Segment, Header, Grid } from 'semantic-ui-react'
 // import { useState } from "react";
 
 const EmailMe = (props) => {
@@ -37,28 +37,34 @@ const EmailMe = (props) => {
                 </div>
             </div>
             <br></br>
-            <Card fluid style={{ padding: '2em', backgroundColor: 'black'}}>
-                <div id="top2" style={{ fontSize: '1.33em', color: 'white', justifyContent: 'center', alignItems: 'center', alignContent: 'center' }}>
-                    <form id='contact-form' onSubmit={sendEmail}>
-                        <label class='contact-label'> Your Name: </label>
-                        <input class='text-input' type="text" name="from_name" placeholder="your name..." ></input>
+            <Grid fluid style={{ padding: '2em', marginLeft: '3em', backgroundColor: 'rgb(33, 32, 32)', display: 'flex', justifyContent: 'center', alignItems: 'center', alignContent: 'center', width: '20em' }}>
+                <div id="top2" style={{ fontSize: '1.33em', color: 'aqua', justifyContent: 'center', alignItems: 'center', alignContent: 'center' }} >
+                    <form id='contact-form' onSubmit={sendEmail} >
+                        <label class='contact-label' > Your Name: </label>
                         <br></br>
                         <br></br>
-                        <label class='contact-label'> Your Email Address: </label>
-                        <input class='text-input' type="text" name="reply_to" placeholder="your email address..." ></input>
+                        <input class='text-input' type="text" name="from_name" placeholder="Your name..." style={{ borderRadius: '5px', padding: '.5em'}}></input>
                         <br></br>
                         <br></br>
-                        <label class='contact-label'> Message: </label>
-                        <textarea class='text-input' name="message" placeholder="your message here...">
+                        <label class='contact-label' > Your Email Address: </label>
+                        <br></br>
+                        <br></br>
+                        <input class='text-input' type="text" name="reply_to" placeholder="Your email address..." style={{ borderRadius: '5px', padding: '.5em'}}></input>
+                        <br></br>
+                        <br></br>
+                        <label class='contact-label' > Message: </label>
+                        <br></br>
+                        <br></br>
+                        <textarea class='text-input' name="message" placeholder="Your message here..." style={{ borderRadius: '5px', padding: '.5em'}}>
                         </textarea>
                         <br></br>
                         <br></br>
-                        <input id='contact-submit' type="submit" value="Submit" margin='3em'></input>
+                        <input id='contact-submit' type="submit" value="Submit" margin='3em' style={{ color: 'white', justifyContent: 'center', alignItems: 'center', alignContent: 'center', backgroundColor: 'aqua', color: 'rgb(33, 32, 32)', borderRadius: '5px', padding: '.5em' }}></input>
                         <br></br>
                         <br></br>
                     </form>
                 </div>
-            </Card>
+            </Grid>
         </div>
 
 
