@@ -11,7 +11,7 @@ const Projects = () => {
 			description: "A full stack application designed for users to create Christmas Wish Lists for their loved ones and keep track of whether the items have been bought or wrapped. Users can also send secret messages to Santa at the North Pole",
 			meta: 'MongoDB, Express, React.js, Node.js, and Bootstrap-React, Sass, and an optional alternative back end with Django and Python',
 			image: "SantasHelper.png",
-			// href: 'https://emilybernard1.github.io/santas-helper/',
+			href: 'https://santas-helper.netlify.app',
 			signIn: 'Username: eb@eb.eb Password: eb',
 			gitHub: 'https://github.com/emilybernard1/santas-helper'
 		},
