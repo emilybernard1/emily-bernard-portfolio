@@ -10,7 +10,7 @@ const AboutMe = (props) => {
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
                             <Grid.Column width={8}>
-                                <Header as='h1' style={{ fontSize: '2em', color: 'violet' }}>
+                                <Header as='h1' style={{ fontSize: '3em', color: 'violet' }}>
                                     About Me
                                 </Header>
                                 <p style={{ fontSize: '1.33em' }}>

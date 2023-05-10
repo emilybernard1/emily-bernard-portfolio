@@ -29,7 +29,7 @@ const EmailMe = (props) => {
                 <div id="top1">
                     <Segment fluid style={{ padding: '1em 0em' }} vertical color='purple'>
                     </Segment>
-                    <Header as='h1' style={{ fontSize: '2em', color: 'violet' }} textAlign='center' >
+                    <Header as='h1' style={{ fontSize: '3em', color: 'violet' }} textAlign='center' >
                         Contact Me
                         <br></br>
                     </Header>
