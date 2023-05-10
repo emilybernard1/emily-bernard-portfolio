@@ -8,7 +8,7 @@ const Projects = () => {
 	const projects = [
 		{
 			header: "Santa's Helper",
-			description: "A full stack application designed for users to create Christmas Wish Lists for their loved ones and keep track of whether the items have been bought or wrapped. Users can also send secret messages to Santa at the North Pole",
+			description: "Built with a MERN stack and alternate back end with Django and Python, this application is designed for users to create and maintain Christmas gift lists for their loved ones and keep track of whether they have been bought and wrapped. Users can also send secret wishes to Santa at the North Pole.",
 			meta: 'MongoDB, Express, React.js, Node.js, and Bootstrap-React, Sass, and an optional alternative back end with Django and Python',
 			image: "SantasHelper.png",
 			href: 'https://santas-helper.netlify.app',
@@ -17,7 +17,7 @@ const Projects = () => {
 		},
 		{
 			header: 'PetMatch App',
-			description: "A full stack application. Users must create a log in so they can create a pet profile that they can update and delete. They can also see other pets on the app and message users to make play-dates.",
+			description: "Built with React, MongoDB, Cloudinary, Express.js, and Node.js, this application is designed for users to create and maintain profiles for their pets in the hopes of setting up playdates for them.",
 			meta: 'MongoDB, Express, React.js, Node.js, and Bootstrap-React, Sass',
 			image: "petMatch.png",
 			href: 'https://petplaydate.netlify.app/',
@@ -26,7 +26,7 @@ const Projects = () => {
 		},
 		{
 			header: "Books and Crafts Tracker",
-			description: "This app is designed for users to track the books and crafts that they want to read or do",
+			description: "Built with React, MongoDB, Express.js, and Node.js, this application is designed for users to track the books and crafts that they want to read or do.",
 			meta: "JavaScript, React, MongoDB, Express.js, and Node.js",
 			image: "Books&Crafts.png",
 			href: "https://booksandcrafts.fly.dev/",
@@ -35,8 +35,7 @@ const Projects = () => {
 		},
 		{
 			header: "French Memory Game",
-			description: "Matching Game where users can test their memory skills to match the monuments of Paris.",
-			meta: "JavaScript, HTML 5, and CSS 3",
+			description: "Built with JavaScript, CSS, and HTML, this application is a browser Matching Game where users can test their memory skills to match the monuments of Paris.",
 			image: 'FrenchMemoryGame.png',
 			href: 'https://frenchmemorygame.netlify.app/',
 			signIn: 'No username or password needed',
