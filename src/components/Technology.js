@@ -15,7 +15,7 @@ const Technology = () => {
 
 					<Icon className='devicon-javascript-plain' size='huge' />
 
-					<Icon className='devicon-django-plain colored' size='huge' />
+					<Icon className='devicon-django-plain' size='huge' />
 
 					<Icon className='devicon-postgresql-plain' size='huge' />
 
@@ -31,7 +31,7 @@ const Technology = () => {
 
 					<Icon name='react' size='huge' />
 
-					{/* <Icon className='devicon-sass-original' size='huge' /> */}
+					<Icon className='devicon-sass-original' size='huge' />
 
 					<Icon className='devicon-bootstrap-plain' size='huge' />
 				</Container>
