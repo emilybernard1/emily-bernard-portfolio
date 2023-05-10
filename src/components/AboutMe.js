@@ -22,7 +22,7 @@ const AboutMe = (props) => {
                                 </p>
                             </Grid.Column>
                             <Grid.Column floated='right' width={6}>
-                                <Image bordered rounded size='medium' src={`${process.env.PUBLIC_URL}/images/profilepic.png`} />
+                                <Image bordered rounded size='medium' src={`${process.env.PUBLIC_URL}/images/EBProfilePic1.png`} />
                             </Grid.Column>
                         </Grid.Row>
 
