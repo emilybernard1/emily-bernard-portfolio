@@ -6,7 +6,7 @@ const Technology = () => {
 	return (
 		<div>
 			<Segment fluid style={{ padding: '3em 0em' }} vertical color='teal'>
-				<Header size='huge' textAlign='center' style={{ fontSize: '3em', color: 'violet' }}>Skills</Header>
+				<Header size='huge' textAlign='center' style={{ fontSize: '2.5em', color: 'violet' }}>Skills</Header>
 				<Container fluid textAlign='center'>
 
 					<Icon className='devicon-express-original' size='huge' />
